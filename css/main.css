@@ -1,0 +1,113 @@
+/*
+general
+*/
+body{
+    position: relative;
+    font-family: "Raleway", sans-serif;
+}
+
+
+a {
+  color: #a02020;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1d4233;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Raleway", sans-serif;
+}
+
+/*
+navbar
+*/
+.navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+.nav-link:hover::after{
+    content: '';
+    display:block;
+    border-bottom: 3px solid #9e0c0c;   
+    width:50%; 
+    margin:auto;
+    font-weight: 700;
+}
+
+.navbar-nav .active{
+    font-weight: 700;
+}
+
+/* Button*/
+.button {
+        border-radius: 40px;
+    }
+
+.btn-link{
+    color: rgb(153, 30, 30);
+}
+
+.btn-link:hover{
+    color:rgb(28, 39, 160);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.section-title {
+    font-weight: 600;
+}
+
+.section-line {
+    width: 80px;
+    height: 2px;
+    background: #9e0c0c;
+    margin: 30px auto;
+    display:block;
+}
+
+.features {
+    padding: 2rem 1rem;
+    background-color: hsl(0, 34%, 40%);
+}
+
+.sizeof {
+    width: 60%;
+  }
+
+.carousel-img {
+    width: 100%
+  }
+
+.container .card-login {
+      box-shadow: -8px 12px 18px 0 #939997;
+      border-radius: 2px;
+      padding: 20px;
+  }
+
+
+.faq, .testi, .contact {
+    margin-top: 90px;
+}
+
+
+  /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content {
+  background-color: #f8eaea;
+  padding: 40px;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #b81b28;
+}
